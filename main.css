@@ -1,0 +1,55 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin: 70px auto auto auto;
+    position: relative;
+    background-image: url(./diffuse.png);
+    background-color: black;
+    background-size: 51%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    margin-bottom: 120px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00, 0 0 150px #ffff00;
+}
+
+.left {
+    position: absolute;
+    width: 28%;
+    top: 200px;
+    left: 0;
+    text-align: right;
+    font-size: 120%;
+}
+
+.right {
+    position: absolute;
+    width: 28%;
+    top: 200px;
+    right: 0;
+    text-align: left;
+    font-size: 120%;
+}
+
+.li {
+    margin: 10px;
+    display: list-item;
+    border-bottom: rgb(179, 69, 212) 1px solid;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    list-style-type: none;
+}
+
+.li:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00, 0 0 150px #ffff00;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
